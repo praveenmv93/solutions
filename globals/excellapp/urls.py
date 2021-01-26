@@ -6,7 +6,7 @@ from .views import sample, index, about, software, digital, android, adindex1, a
     stuprofile1, viewstaff, viewstu, viewfac, viewclient, viewclient2, adstaffleaveform, adstuleaveform, addstu, \
     addstaff, view_staff, get_studentdata, get_facultydata, get_studleave, get_staffleave, get_adprosts, get_clientdata, \
     get_client2data, services, test_clientreq, staff_leaveform, stu_leaveform, stu_remark, proj_companysts, test_client, \
-    test_fac, test_test, suggestions, clientprojects
+    test_fac, test_test, suggestions, clientprojects, addfac
 
 urlpatterns = [
 
@@ -17,6 +17,7 @@ urlpatterns = [
     path('digital/', digital, name='digital'),
     path('android/', android, name='android'),
     path('adindex1/', adindex1, name='adindex1'),
+    path('addfac/', addfac, name='addfac'),
     path('adprosts/', adprosts, name='adprosts'),
     path('form_elements/', form_elements, name='form_elements'),
     path('proindex/', proindex, name='proindex'),
@@ -36,7 +37,8 @@ urlpatterns = [
     path('staffleaveform/', staffleaveform, name='staffleaveform'),
     path('stufeedback/', stufeedback, name='stufeedback'),
     path('stusuggest/', stusuggest, name='stusuggest'),
-    path('approve/', approve, name='approve'),
+
+    path('approve/<int:id>/', approve, name='approve'),
     path('staffprofile/', staffprofile, name='staffprofile'),
     path('clientprofile/', clientprofile, name='clientprofile'),
     path('stuprofile1/', stuprofile1, name='stuprofile1'),

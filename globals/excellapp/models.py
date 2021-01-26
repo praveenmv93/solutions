@@ -39,14 +39,14 @@ class client(models.Model):
 
 
 class client_request(models.Model):
-    # client_id=models.ForeignKey(client,on_delete=models.DO_NOTHING)
-    clients = models.OneToOneField(UserProfile, blank=True, null=True, on_delete=models.CASCADE)
+    client_id=models.ForeignKey(client,on_delete=models.DO_NOTHING)
+    # clients = models.OneToOneField(UserProfile, blank=True, null=True, on_delete=models.CASCADE)
     company_name = models.CharField(max_length=50)
     project_title = models.CharField(max_length=50)
     client_quotation = models.CharField(max_length=50)
     client_duedate = models.DateField()
     client_meet = models.CharField(max_length=30)
-    # approved = models.BooleanField()
+    approved = models.BooleanField()
 
 
 class projects(models.Model):

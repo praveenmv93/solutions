@@ -322,6 +322,7 @@ def get_adprosts(request):
 
 
 def get_clientdata(request):
+    # all_client_data = client_request.objects.filter(approved=False)
     all_client_data = client_request.objects.all()
     return render(request, 'publicapp/viewclient.html', {'allclientdata': all_client_data})
 
@@ -490,21 +491,20 @@ def test_test(request):
     return render(request, 'publicapp/adindex1.html')
 
 
-def approve(request):
+def approve(request,id):
     print("inside approve")
-    # employee = client_request.objects.get(id="1")
-    # employee.approved = True
-    # employee.save()
-    subject = 'welcome to Praveen world'
+    employee = client_request.objects.get(id=id)
+    employee.approved = True
+    email = employee.client_id.client_email
+    employee.save()
+    subject = 'Your Request Approved'
     message = f'Hi thank you for registering in Excellence Academy.'
     email_from = settings.EMAIL_HOST_USER
-    recipient_list = ["praveenmv93@gmail.com", ]
-    context = {
-        "d": "d",
-    }
+    recipient_list = [email, ]
+
     send_mail(subject, message, email_from, recipient_list)
     # return redirect('/get_clientdata/')
-    return HttpResponse("d")
+    return render(request, 'page/home.html', {'some_flag': True})
 
 
 def clientprojects(request):

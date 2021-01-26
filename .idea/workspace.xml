@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/globals/excellapp/templates/publicapp/adindex1.html" description="href" line="76" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8c560ca5-d0ea-4b60-aeab-8ae44c37e6d4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/globals/excellapp/templates/publicapp/project_sts.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/globals/excellapp/templates/publicapp/suggestions.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/globals/db.sqlite3" afterPath="$PROJECT_DIR$/globals/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/globals/excellapp/admin.py" afterPath="$PROJECT_DIR$/globals/excellapp/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/globals/excellapp/forms.py" afterPath="$PROJECT_DIR$/globals/excellapp/forms.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/globals/excellapp/models.py" afterPath="$PROJECT_DIR$/globals/excellapp/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/globals/excellapp/templates/publicapp/clientprofile.html" afterPath="$PROJECT_DIR$/globals/excellapp/templates/publicapp/clientprofile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/globals/excellapp/templates/publicapp/adindex1.html" afterPath="$PROJECT_DIR$/globals/excellapp/templates/publicapp/adindex1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/globals/excellapp/templates/publicapp/viewclient.html" afterPath="$PROJECT_DIR$/globals/excellapp/templates/publicapp/viewclient.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/globals/excellapp/urls.py" afterPath="$PROJECT_DIR$/globals/excellapp/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/globals/excellapp/views.py" afterPath="$PROJECT_DIR$/globals/excellapp/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/globals/globals/settings.py" afterPath="$PROJECT_DIR$/globals/globals/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,26 +23,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/globals/excellapp/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="53" column="89" lean-forward="false" selection-start-line="53" selection-start-column="89" selection-end-line="53" selection-end-column="89" />
+            <state relative-caret-position="236">
+              <caret line="48" column="12" lean-forward="false" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="12" />
               <folding>
-                <element signature="e#216#347#0" expanded="false" />
-                <element signature="e#325#347#0" expanded="false" />
-                <element signature="e#3918#4055#0" expanded="false" />
-                <element signature="e#4090#4260#0" expanded="false" />
-                <element signature="e#4303#4490#0" expanded="false" />
-                <element signature="e#4528#4822#0" expanded="false" />
-                <element signature="e#4862#4997#0" expanded="false" />
-                <element signature="e#5037#5271#0" expanded="false" />
-                <element signature="e#5310#5470#0" expanded="false" />
-                <element signature="e#5511#5870#0" expanded="false" />
-                <element signature="e#5911#6192#0" expanded="false" />
-                <element signature="e#6235#6520#0" expanded="false" />
-                <element signature="e#6560#6862#0" expanded="false" />
-                <element signature="e#6906#7208#0" expanded="false" />
+                <element signature="e#3916#4053#0" expanded="false" />
+                <element signature="e#4088#4258#0" expanded="false" />
+                <element signature="e#4301#4488#0" expanded="false" />
+                <element signature="e#4526#4820#0" expanded="false" />
+                <element signature="e#4860#4995#0" expanded="false" />
+                <element signature="e#5035#5269#0" expanded="false" />
+                <element signature="e#5308#5468#0" expanded="false" />
+                <element signature="e#5509#5868#0" expanded="false" />
+                <element signature="e#5909#6190#0" expanded="false" />
+                <element signature="e#6233#6518#0" expanded="false" />
+                <element signature="e#6558#6860#0" expanded="false" />
+                <element signature="e#6904#7206#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -51,8 +49,8 @@
       <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/globals/excellapp/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+            <state relative-caret-position="45">
+              <caret line="3" column="84" lean-forward="false" selection-start-line="3" selection-start-column="84" selection-end-line="3" selection-end-column="84" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -60,19 +58,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/globals/excellapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="531" column="37" lean-forward="false" selection-start-line="531" selection-start-column="37" selection-end-line="531" selection-end-column="37" />
+            <state relative-caret-position="122">
+              <caret line="325" column="49" lean-forward="false" selection-start-line="325" selection-start-column="49" selection-end-line="325" selection-end-column="49" />
               <folding>
+                <element signature="e#454#865#0" expanded="false" />
                 <element signature="e#574#595#0" expanded="false" />
                 <element signature="e#892#942#0" expanded="false" />
                 <element signature="e#969#1019#0" expanded="false" />
                 <element signature="e#1049#1102#0" expanded="false" />
                 <element signature="e#1131#1183#0" expanded="false" />
                 <element signature="e#1212#1264#0" expanded="false" />
-                <element signature="e#1294#1347#0" expanded="false" />
                 <element signature="e#1377#1430#0" expanded="false" />
                 <element signature="e#1465#1522#0" expanded="false" />
                 <element signature="e#1552#1605#0" expanded="false" />
@@ -115,7 +113,6 @@
                 <element signature="e#7447#7506#0" expanded="false" />
                 <element signature="e#7534#7813#0" expanded="false" />
                 <element signature="e#7590#7620#0" expanded="false" />
-                <element signature="e#7841#8180#0" expanded="false" />
                 <element signature="e#7878#8124#0" expanded="false" />
                 <element signature="e#7951#8124#0" expanded="false" />
                 <element signature="e#7972#8028#0" expanded="false" />
@@ -129,23 +126,49 @@
                 <element signature="e#9491#9630#0" expanded="false" />
                 <element signature="e#9666#9816#0" expanded="false" />
                 <element signature="e#9850#9990#0" expanded="false" />
-                <element signature="e#10026#10164#0" expanded="false" />
-                <element signature="e#10201#10335#0" expanded="false" />
-                <element signature="e#10365#10418#0" expanded="false" />
-                <element signature="e#10454#10975#0" expanded="false" />
-                <element signature="e#11010#11427#0" expanded="false" />
-                <element signature="e#11464#12058#0" expanded="false" />
-                <element signature="e#12090#12296#0" expanded="false" />
-                <element signature="e#12333#12862#0" expanded="false" />
-                <element signature="e#12892#13319#0" expanded="false" />
-                <element signature="e#13352#13766#0" expanded="false" />
-                <element signature="e#13823#14603#0" expanded="false" />
-                <element signature="e#14633#15474#0" expanded="false" />
-                <element signature="e#15579#16359#0" expanded="false" />
-                <element signature="e#16388#16888#0" expanded="false" />
-                <element signature="e#16416#16463#0" expanded="false" />
-                <element signature="e#16732#16757#0" expanded="false" />
+                <element signature="e#10271#10405#0" expanded="false" />
+                <element signature="e#10435#10488#0" expanded="false" />
+                <element signature="e#10524#11045#0" expanded="false" />
+                <element signature="e#11080#11497#0" expanded="false" />
+                <element signature="e#11534#12128#0" expanded="false" />
+                <element signature="e#12160#12366#0" expanded="false" />
+                <element signature="e#12403#12932#0" expanded="false" />
+                <element signature="e#12962#13389#0" expanded="false" />
+                <element signature="e#13422#13836#0" expanded="false" />
+                <element signature="e#13893#14673#0" expanded="false" />
+                <element signature="e#14703#15544#0" expanded="false" />
+                <element signature="e#15649#16429#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="viewclient.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/globals/excellapp/templates/publicapp/viewclient.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="75" column="65" lean-forward="false" selection-start-line="75" selection-start-column="65" selection-end-line="75" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adindex1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/globals/excellapp/templates/publicapp/adindex1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1155">
+              <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adminlayout.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/globals/excellapp/templates/publicapp/adminlayout.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="188" column="85" lean-forward="false" selection-start-line="188" selection-start-column="71" selection-end-line="188" selection-end-column="85" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -160,32 +183,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="clientprofile.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/globals/excellapp/templates/publicapp/clientprofile.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="82" column="28" lean-forward="false" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="28" />
-              <folding>
-                <element signature="n#style#0;n#section#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="suggestions.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/globals/excellapp/templates/publicapp/suggestions.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="63" column="39" lean-forward="false" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
-              <folding>
-                <element signature="n#nav#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#ul#0;n#div#0;n#div#0;n#nav#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#section#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/globals/globals/settings.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -196,24 +193,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project_sts.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/globals/excellapp/templates/publicapp/project_sts.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="75" column="30" lean-forward="false" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="30" />
-              <folding>
-                <element signature="n#style#0;n#section#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/globals/excellapp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="69" column="38" lean-forward="true" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="38" />
-              <folding />
+            <state relative-caret-position="77">
+              <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -242,11 +229,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>addstu</find>
-      <find>addfac</find>
-      <find>adprosts</find>
-      <find>form_elements</find>
-      <find>adindex1</find>
       <find>about</find>
       <find>contact</find>
       <find>addstaff</find>
@@ -255,7 +237,6 @@
       <find>get_studleave</find>
       <find>get_staffleave</find>
       <find>get_adprosts</find>
-      <find>get_clientdata</find>
       <find>indexindex</find>
       <find>get_client2data</find>
       <find>index</find>
@@ -272,6 +253,12 @@
       <find>clients</find>
       <find>form</find>
       <find>login</find>
+      <find>adindex1</find>
+      <find>addfac</find>
+      <find>href</find>
+      <find>View Client Requisition</find>
+      <find>get_clientdata</find>
+      <find>adindex</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -287,13 +274,16 @@
         <option value="$PROJECT_DIR$/globals/excellapp/templates/publicapp/publiclayout.html" />
         <option value="$PROJECT_DIR$/globals/excellapp/forms.py" />
         <option value="$PROJECT_DIR$/globals/excellapp/templates/publicapp/suggestions.html" />
-        <option value="$PROJECT_DIR$/globals/excellapp/urls.py" />
         <option value="$PROJECT_DIR$/globals/excellapp/templates/publicapp/clientprofile.html" />
         <option value="$PROJECT_DIR$/globals/excellapp/templates/publicapp/project_sts.html" />
         <option value="$PROJECT_DIR$/globals/globals/settings.py" />
-        <option value="$PROJECT_DIR$/globals/excellapp/admin.py" />
-        <option value="$PROJECT_DIR$/globals/excellapp/views.py" />
         <option value="$PROJECT_DIR$/globals/excellapp/models.py" />
+        <option value="$PROJECT_DIR$/globals/excellapp/templates/publicapp/adindex1.html" />
+        <option value="$PROJECT_DIR$/globals/excellapp/admin.py" />
+        <option value="$PROJECT_DIR$/globals/excellapp/templates/publicapp/adminlayout.html" />
+        <option value="$PROJECT_DIR$/globals/excellapp/urls.py" />
+        <option value="$PROJECT_DIR$/globals/excellapp/templates/publicapp/viewclient.html" />
+        <option value="$PROJECT_DIR$/globals/excellapp/views.py" />
       </list>
     </option>
   </component>
@@ -414,6 +404,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="75" y="27" width="1319" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25333333" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -423,7 +414,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3288364" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3288364" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -456,20 +447,18 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#216#347#0" expanded="false" />
-            <element signature="e#325#347#0" expanded="false" />
-            <element signature="e#3918#4055#0" expanded="false" />
-            <element signature="e#4090#4260#0" expanded="false" />
-            <element signature="e#4303#4490#0" expanded="false" />
-            <element signature="e#4528#4822#0" expanded="false" />
-            <element signature="e#4862#4997#0" expanded="false" />
-            <element signature="e#5037#5271#0" expanded="false" />
-            <element signature="e#5310#5470#0" expanded="false" />
-            <element signature="e#5511#5870#0" expanded="false" />
-            <element signature="e#5911#6192#0" expanded="false" />
-            <element signature="e#6235#6520#0" expanded="false" />
-            <element signature="e#6560#6862#0" expanded="false" />
-            <element signature="e#6906#7208#0" expanded="false" />
+            <element signature="e#3916#4053#0" expanded="false" />
+            <element signature="e#4088#4258#0" expanded="false" />
+            <element signature="e#4301#4488#0" expanded="false" />
+            <element signature="e#4526#4820#0" expanded="false" />
+            <element signature="e#4860#4995#0" expanded="false" />
+            <element signature="e#5035#5269#0" expanded="false" />
+            <element signature="e#5308#5468#0" expanded="false" />
+            <element signature="e#5509#5868#0" expanded="false" />
+            <element signature="e#5909#6190#0" expanded="false" />
+            <element signature="e#6233#6518#0" expanded="false" />
+            <element signature="e#6558#6860#0" expanded="false" />
+            <element signature="e#6904#7206#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -479,13 +468,13 @@
         <state relative-caret-position="1245">
           <caret line="91" column="45" lean-forward="false" selection-start-line="91" selection-start-column="38" selection-end-line="91" selection-end-column="45" />
           <folding>
+            <element signature="e#454#865#0" expanded="false" />
             <element signature="e#574#595#0" expanded="false" />
             <element signature="e#892#942#0" expanded="false" />
             <element signature="e#969#1019#0" expanded="false" />
             <element signature="e#1049#1102#0" expanded="false" />
             <element signature="e#1131#1183#0" expanded="false" />
             <element signature="e#1212#1264#0" expanded="false" />
-            <element signature="e#1294#1347#0" expanded="false" />
             <element signature="e#1377#1430#0" expanded="false" />
             <element signature="e#1465#1522#0" expanded="false" />
             <element signature="e#1552#1605#0" expanded="false" />
@@ -528,7 +517,6 @@
             <element signature="e#7447#7506#0" expanded="false" />
             <element signature="e#7534#7813#0" expanded="false" />
             <element signature="e#7590#7620#0" expanded="false" />
-            <element signature="e#7841#8180#0" expanded="false" />
             <element signature="e#7878#8124#0" expanded="false" />
             <element signature="e#7951#8124#0" expanded="false" />
             <element signature="e#7972#8028#0" expanded="false" />
@@ -542,22 +530,18 @@
             <element signature="e#9491#9630#0" expanded="false" />
             <element signature="e#9666#9816#0" expanded="false" />
             <element signature="e#9850#9990#0" expanded="false" />
-            <element signature="e#10026#10164#0" expanded="false" />
-            <element signature="e#10201#10335#0" expanded="false" />
-            <element signature="e#10365#10418#0" expanded="false" />
-            <element signature="e#10454#10975#0" expanded="false" />
-            <element signature="e#11010#11427#0" expanded="false" />
-            <element signature="e#11464#12058#0" expanded="false" />
-            <element signature="e#12090#12296#0" expanded="false" />
-            <element signature="e#12333#12862#0" expanded="false" />
-            <element signature="e#12892#13319#0" expanded="false" />
-            <element signature="e#13352#13766#0" expanded="false" />
-            <element signature="e#13823#14603#0" expanded="false" />
-            <element signature="e#14633#15474#0" expanded="false" />
-            <element signature="e#15579#16359#0" expanded="false" />
-            <element signature="e#16388#16888#0" expanded="false" />
-            <element signature="e#16416#16463#0" expanded="false" />
-            <element signature="e#16732#16757#0" expanded="false" />
+            <element signature="e#10271#10405#0" expanded="false" />
+            <element signature="e#10435#10488#0" expanded="false" />
+            <element signature="e#10524#11045#0" expanded="false" />
+            <element signature="e#11080#11497#0" expanded="false" />
+            <element signature="e#11534#12128#0" expanded="false" />
+            <element signature="e#12160#12366#0" expanded="false" />
+            <element signature="e#12403#12932#0" expanded="false" />
+            <element signature="e#12962#13389#0" expanded="false" />
+            <element signature="e#13422#13836#0" expanded="false" />
+            <element signature="e#13893#14673#0" expanded="false" />
+            <element signature="e#14703#15544#0" expanded="false" />
+            <element signature="e#15649#16429#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -591,7 +575,7 @@
         <state relative-caret-position="420">
           <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
           <folding>
-            <element signature="e#0#28#0" expanded="false" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -707,14 +691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/globals/excellapp/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="69" column="38" lean-forward="true" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/globals/excellapp/templates/publicapp/clientprofile.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -763,26 +739,81 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/globals/excellapp/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        <state relative-caret-position="45">
+          <caret line="3" column="84" lean-forward="false" selection-start-line="3" selection-start-column="84" selection-end-line="3" selection-end-column="84" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/globals/excellapp/templates/publicapp/adminlayout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="188" column="85" lean-forward="false" selection-start-line="188" selection-start-column="71" selection-end-line="188" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/globals/excellapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="48" column="12" lean-forward="false" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="12" />
+          <folding>
+            <element signature="e#3916#4053#0" expanded="false" />
+            <element signature="e#4088#4258#0" expanded="false" />
+            <element signature="e#4301#4488#0" expanded="false" />
+            <element signature="e#4526#4820#0" expanded="false" />
+            <element signature="e#4860#4995#0" expanded="false" />
+            <element signature="e#5035#5269#0" expanded="false" />
+            <element signature="e#5308#5468#0" expanded="false" />
+            <element signature="e#5509#5868#0" expanded="false" />
+            <element signature="e#5909#6190#0" expanded="false" />
+            <element signature="e#6233#6518#0" expanded="false" />
+            <element signature="e#6558#6860#0" expanded="false" />
+            <element signature="e#6904#7206#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/globals/excellapp/templates/publicapp/adindex1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/globals/excellapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/globals/excellapp/templates/publicapp/viewclient.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="75" column="65" lean-forward="false" selection-start-line="75" selection-start-column="65" selection-end-line="75" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/globals/excellapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="531" column="37" lean-forward="false" selection-start-line="531" selection-start-column="37" selection-end-line="531" selection-end-column="37" />
+        <state relative-caret-position="122">
+          <caret line="325" column="49" lean-forward="false" selection-start-line="325" selection-start-column="49" selection-end-line="325" selection-end-column="49" />
           <folding>
+            <element signature="e#454#865#0" expanded="false" />
             <element signature="e#574#595#0" expanded="false" />
             <element signature="e#892#942#0" expanded="false" />
             <element signature="e#969#1019#0" expanded="false" />
             <element signature="e#1049#1102#0" expanded="false" />
             <element signature="e#1131#1183#0" expanded="false" />
             <element signature="e#1212#1264#0" expanded="false" />
-            <element signature="e#1294#1347#0" expanded="false" />
             <element signature="e#1377#1430#0" expanded="false" />
             <element signature="e#1465#1522#0" expanded="false" />
             <element signature="e#1552#1605#0" expanded="false" />
@@ -825,7 +856,6 @@
             <element signature="e#7447#7506#0" expanded="false" />
             <element signature="e#7534#7813#0" expanded="false" />
             <element signature="e#7590#7620#0" expanded="false" />
-            <element signature="e#7841#8180#0" expanded="false" />
             <element signature="e#7878#8124#0" expanded="false" />
             <element signature="e#7951#8124#0" expanded="false" />
             <element signature="e#7972#8028#0" expanded="false" />
@@ -839,45 +869,18 @@
             <element signature="e#9491#9630#0" expanded="false" />
             <element signature="e#9666#9816#0" expanded="false" />
             <element signature="e#9850#9990#0" expanded="false" />
-            <element signature="e#10026#10164#0" expanded="false" />
-            <element signature="e#10201#10335#0" expanded="false" />
-            <element signature="e#10365#10418#0" expanded="false" />
-            <element signature="e#10454#10975#0" expanded="false" />
-            <element signature="e#11010#11427#0" expanded="false" />
-            <element signature="e#11464#12058#0" expanded="false" />
-            <element signature="e#12090#12296#0" expanded="false" />
-            <element signature="e#12333#12862#0" expanded="false" />
-            <element signature="e#12892#13319#0" expanded="false" />
-            <element signature="e#13352#13766#0" expanded="false" />
-            <element signature="e#13823#14603#0" expanded="false" />
-            <element signature="e#14633#15474#0" expanded="false" />
-            <element signature="e#15579#16359#0" expanded="false" />
-            <element signature="e#16388#16888#0" expanded="false" />
-            <element signature="e#16416#16463#0" expanded="false" />
-            <element signature="e#16732#16757#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/globals/excellapp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="53" column="89" lean-forward="false" selection-start-line="53" selection-start-column="89" selection-end-line="53" selection-end-column="89" />
-          <folding>
-            <element signature="e#216#347#0" expanded="false" />
-            <element signature="e#325#347#0" expanded="false" />
-            <element signature="e#3918#4055#0" expanded="false" />
-            <element signature="e#4090#4260#0" expanded="false" />
-            <element signature="e#4303#4490#0" expanded="false" />
-            <element signature="e#4528#4822#0" expanded="false" />
-            <element signature="e#4862#4997#0" expanded="false" />
-            <element signature="e#5037#5271#0" expanded="false" />
-            <element signature="e#5310#5470#0" expanded="false" />
-            <element signature="e#5511#5870#0" expanded="false" />
-            <element signature="e#5911#6192#0" expanded="false" />
-            <element signature="e#6235#6520#0" expanded="false" />
-            <element signature="e#6560#6862#0" expanded="false" />
-            <element signature="e#6906#7208#0" expanded="false" />
+            <element signature="e#10271#10405#0" expanded="false" />
+            <element signature="e#10435#10488#0" expanded="false" />
+            <element signature="e#10524#11045#0" expanded="false" />
+            <element signature="e#11080#11497#0" expanded="false" />
+            <element signature="e#11534#12128#0" expanded="false" />
+            <element signature="e#12160#12366#0" expanded="false" />
+            <element signature="e#12403#12932#0" expanded="false" />
+            <element signature="e#12962#13389#0" expanded="false" />
+            <element signature="e#13422#13836#0" expanded="false" />
+            <element signature="e#13893#14673#0" expanded="false" />
+            <element signature="e#14703#15544#0" expanded="false" />
+            <element signature="e#15649#16429#0" expanded="false" />
           </folding>
         </state>
       </provider>
