@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Excellence Global Solutions</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<link href="https:fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https:stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="static/publicapp/css/animate.css">	
+	<link rel="stylesheet" href="static/publicapp/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="static/publicapp/css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="static/publicapp/css/magnific-popup.css">	
+	<link rel="stylesheet" href="static/publicapp/css/flaticon.css">
+	<link rel="stylesheet" href="static/publicapp/css/style.css">
+
+
+
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+		<div class="container">
+			<a class="navbar-brand" href="index">EXCELLENCE GROUP OF <span>COMPANIES</span> </a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span> Menu
+			</button>
+
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav ml-auto">
+				<li class="nav-item active"><a href="{% url 'stuprofile1' %}" class="nav-link">My Profile</a></li>
+					<li class="nav-item"><a href="{% url 'stufacdet' %}" class="nav-link">Faculty Details</a></li>
+					<li class="nav-item"><a href="{% url 'stuprosts' %}" class="nav-link">Project Status</a></li>
+                    <li class="nav-item"><a href="{% url 'stuleaveform' %}" class="nav-link">Apply Leave</a></li>
+                    <li class="dropdown nav-item"><a class="nav-link" class="dropdown-toggle" data-toggle="dropdown">Suggestion</a>
+						<ul class="dropdown-menu" >
+							<li class="nav-item "><a href="{% url 'stusuggest' %}" class="nav-link">Project Suggestion</a></li>
+							<li class="nav-item "><a href="{% url 'stufeedback' %}" class="nav-link">FeedBack</a></li>
+						</ul>
+					</li>
+					<li class="nav-item cta"><a href="{% url 'stulogin' %}" class="nav-link">Log Out</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+
+</head>		
+	<section class="hero-wrap hero-wrap-2" style="background-image: url('static/publicapp/images/stud.jpg');" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row no-gutters slider-text align-items-end justify-content-center">
+				<div class="col-md-9 ftco-animate pb-5 text-center">
+					<h1 class="mb-3 bread"><span>Excellence</span></h1>
+                    <h1 class="mb-3 bread">Global Solutions</h1>
+					<h2 class="mb-3 bread">STUDENT</h2>
+				</div>
+			</div>
+		</div>
+	</section>
+						<div class="row no-gutters">
+							<div class="col-md-7">
+								<div class="contact-wrap w-100 p-md-5 p-4">
+									<h3 class="mb-4">Leave Form</h3>
+									<form action="/stu_leaveform" id="contactForm" data-parsley-validate="" class="contactForm" method="POST">
+                                    {% csrf_token %}
+										<div class="row">
+											<div class="col-md-12">
+												<div class="form-group">
+													<label class="label" for="name">Full Name</label>
+													<input type="text" class="form-control" name="stu_name" id="name" placeholder="Name">
+												</div>
+											</div>
+											
+                      <div class="col-md-12">
+					  					<div class="row">
+											<div class="col-md-12">
+												<div class="form-group">
+													<label class="label" for="email">Email</label>
+													<input type="email" class="form-control" name="stu_email" id="name" placeholder="Email">
+												</div>
+											</div>
+											
+                      <div class="col-md-12">	
+					  <div class="col-md-12">
+												<div class="form-group">
+													<label class="label" for="due date">Comment</label>
+													<input type="text" class="form-control" name="comment" id="comment" placeholder="Comment">
+												</div>
+											</div>
+												
+
+					  							<div class="row">
+											<div class="col-md-6">
+												<div class="form-group">
+													<label class="label" for="name">From Date</label>
+													<input type="date" class="form-control" name="from_date" id="from date" placeholder="From Date">
+												</div>
+											</div>
+											<div class="col-md-6"> 
+												<div class="form-group">
+													<label class="label" for="email">To Date</label>
+													<input type="date" class="form-control" name="to_date" id="To date" placeholder="To Dte">
+												</div>
+											</div>
+                      <div class="col-md-12">
+					  						
+											<div class="col-md-12">
+												<div class="form-group">
+													<label class="label" for="due date">Reason</label>
+													<input type="text" class="form-control" name="reason" id="reason" placeholder="Reason">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<button type="submit">Submit</button>
+													<div class="submitting"></div>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>	
+	</body>
+
+    <footer class="ftco-footer ftco-footer-2 ftco-section">
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col-md">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-footer-logo">EXCELLENCE <span> GROUP OF COMPANIES </span></h2>
+						<p>Excellence has been the leading company in Kerala. Our efficient services has benefited well-known companies all over the world. Excellence is excellent, We will satisfy your dreams. Job consultants, We will fix it</p>
+						<ul class="ftco-footer-social list-unstyled mt-2">
+							<li class=""><a href="#"><span class="fa fa-twitter"></span></a></li>
+							<li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
+							<li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="ftco-footer-widget mb-4 ml-md-5">
+						<h2 class="ftco-heading-2">Explore</h2>
+						<ul class="list-unstyled">
+							<li><a href="#" class="py-2 d-block">About</a></li>
+							<li><a href="#" class="py-2 d-block">Contact</a></li>
+							<li><a href="#" class="py-2 d-block">What We Do</a></li>
+							<li><a href="#" class="py-2 d-block">Plans &amp; Pricing</a></li>
+							<li><a href="#" class="py-2 d-block">Refund Policy</a></li>
+							<li><a href="#" class="py-2 d-block">Call Us</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2">Legal</h2>
+						<ul class="list-unstyled">
+							<li><a href="#" class="py-2 d-block">Join Us</a></li>
+							<li><a href="#" class="py-2 d-block">Blog</a></li>
+							<li><a href="#" class="py-2 d-block">Privacy &amp; Policy</a></li>
+							<li><a href="#" class="py-2 d-block">Terms &amp; Conditions</a></li>
+							<li><a href="#" class="py-2 d-block">Careers</a></li>
+							<li><a href="#" class="py-2 d-block">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2">Have a Questions?</h2>
+						<div class="block-23 mb-3">
+							<ul>
+								<li><span class="icon fa fa-map marker"></span><span class="text">3rd Floor,Devamatha Tower,St.Thomas College Road,Opposite District Office,Thrissur,Kerala.India 680001 </span></li>
+								<li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+91 9633617776</span></a></li>
+								<li><a href="#"><span class="icon fa fa-paper-plane pr-4"></span><span class="text">excellencegroupofcompanies@gmail.com</span></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</footer>
+		<!-- loader -->
+		<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+		<script src="static/publicapp/js/jquery.min.js"></script>
+		<script src="static/publicapp/js/jquery-migrate-3.0.1.min.js"></script>
+		<script src="static/publicapp/js/popper.min.js"></script>
+		<script src="static/publicapp/js/bootstrap.min.js"></script>
+		<script src="static/publicapp/js/jquery.easing.1.3.js"></script>
+		<script src="static/publicapp/js/jquery.waypoints.min.js"></script>
+		<script src="static/publicapp/js/jquery.stellar.min.js"></script>
+		<script src="static/publicapp/js/owl.carousel.min.js"></script>
+		<script src="static/publicapp/js/jquery.magnific-popup.min.js"></script>
+		<script src="static/publicapp/js/jquery.animateNumber.min.js"></script>
+		<script src="static/publicapp/js/scrollax.min.js"></script>
+		<script src="https:maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+		<script src="static/publicapp/js/google-map.js"></script>
+		<script src="static/publicapp/js/main.js"></script>
+    </html>
+  
+
+

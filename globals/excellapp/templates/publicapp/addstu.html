@@ -1,0 +1,136 @@
+{% extends 'publicapp/adminlayout.html' %}
+{% block content %}
+<!doctype html>
+<html lang="en">
+        <!-- ============================================================== -->
+        <!-- wrapper  -->
+        <!-- ============================================================== -->
+        <div class="dashboard-wrapper">
+            <div class="container-fluid  dashboard-content">
+                <!-- ============================================================== -->
+                <!-- pageheader -->
+                <!-- ============================================================== -->
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="page-header">
+                            <h6 class="pageheader-title">ADD STUDENT </h6>
+                            <p class="pageheader-text"></p>
+                            <div class="page-breadcrumb">
+                                <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">Dashboard</a></li>
+                                        <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">Forms</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Add Staff</li>
+                                    </ol>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- end pageheader -->
+                <!-- ============================================================== -->
+             
+                    
+                    <div class="row">
+                        <!-- ============================================================== -->
+                        <!-- basic form -->
+                        <!-- ============================================================== -->
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                            <div class="card">
+                                <h2 class="card-header">ADD STUDENT</h2>
+                                <div class="card-body">
+                                    <form action="test_stu" id="basicform" data-parsley-validate="" method="POST">
+                                    {% csrf_token %}
+                                        <div class="form-group">
+                                            <label for="inputUserName">User Name</label>
+                                            <input id="inputUserName" type="text" name="stu_name" data-parsley-trigger="change" required="" placeholder="Enter user name" autocomplete="off" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="inputEmail">Email address</label>
+                                            <input id="inputEmail" type="email" name="stu_email" data-parsley-trigger="change" required="" placeholder="Enter email" autocomplete="off" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="inputPhoneNumber">Phone Number</label>
+                                            <input id="inputPhoneNumber" type="number" name="stu_phone" data-parsley-trigger="change" required="" placeholder="Enter phone number" autocomplete="off" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="inputAddress">Address</label>
+                                            <input id="inputAddress" type="text" name="stu_address" data-parsley-trigger="change" required="" placeholder="Enter address" autocomplete="off" class="form-control" style=height:100px>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="inputage">Age</label>
+                                            <input id="inputage" type="number" name="stu_age" data-parsley-trigger="change" required="" placeholder="Enter age" autocomplete="off" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="inputCollege">College</label>
+                                            <input id="inputCollege" type="text" name="stu_college" data-parsley-trigger="change" required="" placeholder="Enter college" autocomplete="off" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="inputCourse">Course</label>
+                                            <input id="inputCourse" type="text" name="stu_course" data-parsley-trigger="change" required="" placeholder="Enter course" autocomplete="off" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="inputLanguage">Language</label>
+                                            <input id="inputLanguage" type="text" name="stu_language" data-parsley-trigger="change" required="" placeholder="Enter language" autocomplete="off" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="inputdue">Project Due Date</label>
+                                            <input id="inputdue" type="date" name="pro_due" data-parsley-trigger="change" required="" placeholder="Enter due date" autocomplete="off" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="inputFee">Fee</label>
+                                            <input id="inputFee" type="text" name="stu_fee" data-parsley-trigger="change" required="" placeholder="Enter fee" autocomplete="off" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="inputPassword">Password</label>
+                                            <input id="inputPassword" type="password" name="stu_password" data-parsley-trigger="change" required="" placeholder="Enter password" autocomplete="off" class="form-control">
+                                        </div>
+                                             <div class="col-sm-6 pl-0">
+                                                <p class="text-right">
+                                                    <button type="submit" class="btn btn-space btn-primary">Submit</button>
+                                                    <button class="btn btn-space btn-secondary">Cancel</button>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ============================================================== -->
+                        <!-- end basic form -->
+                        <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- end main wrapper -->
+    <!-- ============================================================== -->
+    <!-- Optional JavaScript -->
+   
+    <script src="static/publicapp/assets/vendor/parsley/parsley.js"></script>
+   
+    <script>
+    $('#form').parsley();
+    </script>
+    <script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function() {
+        'use strict';
+        window.addEventListener('load', function() {
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function(form) {
+                form.addEventListener('submit', function(event) {
+                    if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        }, false);
+    })();
+    </script>
+</body>
+ 
+</html>
+{% endblock %}
