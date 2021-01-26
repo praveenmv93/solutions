@@ -191,7 +191,8 @@ def staffprofile(request):
 
 
 def clientprofile(request):
-    return render(request, 'publicapp/clientprofile.html', {})
+    datas = client.objects.get(clients=request.user)
+    return render(request, 'publicapp/clientprofile.html', {"profile": datas})
 
 
 def stuprofile1(request):
@@ -504,3 +505,7 @@ def approve(request):
     send_mail(subject, message, email_from, recipient_list)
     # return redirect('/get_clientdata/')
     return HttpResponse("d")
+
+
+def clientprojects(request):
+    print("inside projects")
