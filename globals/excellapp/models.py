@@ -49,9 +49,15 @@ class client_request(models.Model):
     # approved = models.BooleanField()
 
 
+class projects(models.Model):
+    project_name = models.CharField(max_length=120, blank=True, null=True)
+    project_client = models.ForeignKey(client, on_delete=models.CASCADE, blank=True, null=True)
+
+
 class client_suggestion(models.Model):
     # client_id=models.ForeignKey(client,on_delete=models.DO_NOTHING)
     clients = models.OneToOneField(UserProfile, blank=True, null=True, on_delete=models.CASCADE)
+    projects = models.ForeignKey(projects, on_delete=models.CASCADE, blank=True, null=True)
     suggestion = models.CharField(max_length=100)
     ad_approve = models.CharField(max_length=20)
     created_at = models.DateTimeField(auto_now_add=True)
@@ -67,7 +73,8 @@ class client_notify(models.Model):
 
 
 class proj_sts(models.Model):
-    client_id = models.ForeignKey(client, on_delete=models.CASCADE,blank=True, null=True    )
+    client_id = models.ForeignKey(client, on_delete=models.CASCADE, blank=True, null=True)
+    projects = models.ForeignKey(projects, on_delete=models.CASCADE, blank=True, null=True)
     sts_date = models.DateField()
     sts_des = models.CharField(max_length=50)
 

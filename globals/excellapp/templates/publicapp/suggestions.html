@@ -61,34 +61,18 @@
 <div class="row no-gutters">
     <div class="col-md-7">
         <div class="contact-wrap w-100 p-md-5 p-4">
-            <h3 class="mb-4">My Profile</h3>
-            <form method="POST" id="contactForm" name="contactForm" class="contactForm">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label class="label" for="name">Name</label>
-                           {{profile.client_name}}
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label class="label" for="email">Email Address</label>
-                            {{profile.client_email}}
+            <h3 class="mb-4">Suggestion</h3>
+            <div class="row">
+                <form method="POST">
+                    {% csrf_token %}
+                    {{form.as_p}}
+                    </fieldset>
+                    <button type="submit">Suggest</button>
+                </form>
 
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                        <div class="form-group">
-                            <label class="label" for="phone number">Phone Number</label>
-                            {{profile.client_phone}}
-                        </div>
-                    </div>
-
-                </div>
-            </form>
-
+            </div>
+        </div>
     </div>
-</div>
 </div>
 </div>
 </div>
@@ -181,6 +165,6 @@
 <script src="static/publicapp/js/google-map.js"></script>
 <script src="static/publicapp/js/main.js"></script>
 </html>
-  
+
 
 

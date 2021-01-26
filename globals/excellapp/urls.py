@@ -6,7 +6,7 @@ from .views import sample, index, about, software, digital, android, adindex1, a
     stuprofile1, viewstaff, viewstu, viewfac, viewclient, viewclient2, adstaffleaveform, adstuleaveform, addstu, \
     addstaff, view_staff, get_studentdata, get_facultydata, get_studleave, get_staffleave, get_adprosts, get_clientdata, \
     get_client2data, services, test_clientreq, staff_leaveform, stu_leaveform, stu_remark, proj_companysts, test_client, \
-    test_fac, test_test
+    test_fac, test_test, suggestions, clientprojects
 
 urlpatterns = [
 
@@ -66,6 +66,8 @@ urlpatterns = [
     path('test_fac/', test_fac, name='test_fac'),
     path('test_client/', test_client, name='test_client'),
     path('test_test/', test_test, name='test_test'),
+    path('suggestions/<int:id>/', suggestions, name='suggestions'),
+    path('clientprojects/', clientprojects, name='clientprojects'),
 
     # path('login', login_view, name='login'),
     # path('register', register, name='register'),

@@ -4,9 +4,9 @@ from django.http import HttpResponse
 from django.shortcuts import render, redirect
 
 # Create your views here.
-from .forms import staffForm
+from .forms import staffForm, ClientSuggestionForm
 from .models import UserProfile, student, staff, client_request, client, faculty_det, stu_leave, staff_leavedata, \
-    proj_company, remark
+    proj_company, remark, proj_sts, client_suggestion
 
 
 def sample(request):
@@ -509,3 +509,38 @@ def approve(request):
 
 def clientprojects(request):
     print("inside projects")
+    user = authenticate(username="q", password="q1w2e3r4")
+    if user is not None:
+        login(request, user)
+    print(request.user)
+    proj = proj_sts.objects.filter(client_id__id=1)
+    print("FFFFFFFFFFFFFFF", proj)
+    # proj = proj_sts.objects.filter(client_id=request.user)
+
+    return render(request, 'publicapp/project_sts.html', {"project": proj})
+
+
+def suggestions(request, id):
+    print("suggestion")
+
+    form = ClientSuggestionForm()
+    if request.method == "POST":
+        form = ClientSuggestionForm(request.POST)
+        if form.is_valid():
+            try:
+                suggestion = form.cleaned_data.get('suggestion')
+                suggest = client_suggestion()
+                print("b", suggest)
+                suggest.suggestion = suggestion
+                suggest.clients = UserProfile.objects.get(username='a')
+                # suggest.clients = request.user
+                suggest.save()
+
+                return redirect('/app/clientprojects')
+            except Exception as e:
+                print("Exception as e", e)
+
+                pass
+        else:
+            form = ClientSuggestionForm()
+    return render(request, 'publicapp/suggestions.html', {"form": form})

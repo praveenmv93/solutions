@@ -37,3 +37,7 @@ class staffForm(forms.Form):
     staff_qualify = forms.CharField()
     staff_salary = forms.IntegerField()
     staff_password = forms.CharField()
+
+
+class ClientSuggestionForm(forms.Form):
+    suggestion = forms.CharField(max_length=100)
